@@ -17,7 +17,7 @@ function App() {
 // }
 
 const getDinos = async () => {
-  const baseURL = 'http://localhost:3000/dinos';
+  const baseURL = 'https://dinoapi.onrender.com/dinos';
   const dinosaur = await fetchDinos(baseURL);
   setdinos(dinosaur);
 }
