@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { fetchDinos } from './helpers/fetchDinos';
 import Main from './Main';
+import AboutUsApi from './AboutUsApi';
 import AboutApi from './AboutApi';
 import {
   BrowserRouter as Router, 
@@ -36,6 +37,7 @@ useEffect(() => {
       <Routes>
         <Route exact path="/" element={<Main/>}/>
         <Route exact path="aboutapi" element={<AboutApi/>}/>
+        <Route exact path="aboutus" element={<AboutUsApi/>}/>
       </Routes>
     </Router>
   );

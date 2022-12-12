@@ -11,3 +11,12 @@
     height: 180px;
     max-width: 200px;
 }
+
+.starter-template{
+    padding: 3rem 1.5rem;
+}
+
+.btn{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
