@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react'
-import { fetchDinos } from './helpers/fetchDinos';
+import React from 'react';
 import Main from './Main';
 import AboutUsApi from './AboutUsApi';
 import AboutApi from './AboutApi';
