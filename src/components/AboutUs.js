@@ -11,7 +11,7 @@ export default function AboutUs() {
                 Alejandro Lopez
             </h2>
             <p>
-                Hobbies:
+                Hobbies: Fotografia analoga, Plantas y patinar.
             </p>
             <h2>
                 Angel Alberto
@@ -29,7 +29,7 @@ export default function AboutUs() {
                 Gonzalo Ramos
             </h2>
             <p>
-            Hobbies:
+            Hobbies: Viajar, leer, escribir y ver series
             </p>
             <h2>
                 Manuel Menodoza
