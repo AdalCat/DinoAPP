@@ -34,7 +34,7 @@ useEffect(() => {
   return (
     <Router>  
       <Routes>
-        <Route exact path="/" element={<Main/>}/>
+        <Route exact path="DinoAPP" element={<Main/>}/>
         <Route exact path="aboutapi" element={<AboutApi/>}/>
         <Route exact path="aboutus" element={<AboutUsApi/>}/>
       </Routes>
