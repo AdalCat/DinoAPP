@@ -6,8 +6,8 @@ const Navbar = ({ brand }) => {
     <nav className="navbar navbar-dark bg-dark ">
     <div className="container justify-content-center">
       <a className="navbar-brand" href="https://adalcat.github.io/DinoAPP/"><img style={{width: "30px"}} alt="dino" src="favicon.png"/>{brand}</a>
-      <a  className="btn btn-info"><Link to="/aboutapi">Sobre la API</Link></a>
-      <a href="/aboutus" className="btn btn-info">Los creadores</a>
+     <Link className="btn btn-info"  to="/aboutapi">Sobre la API</Link>
+     <Link className="btn btn-info" to="/aboutus">Los creadores</Link>
     </div>
   </nav>
   )
