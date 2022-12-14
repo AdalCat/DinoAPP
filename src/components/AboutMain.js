@@ -2,8 +2,8 @@ import React from "react"
 
 export default function AboutMain() {
     return (
-        <main role="main" class="container">
-            <div class="starter-template">
+        <main role="main" className="container">
+            <div className="starter-template">
             <h1>
                 Sobre la DinoAPI
             </h1>

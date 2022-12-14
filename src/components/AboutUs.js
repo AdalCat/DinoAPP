@@ -2,8 +2,8 @@ import React from "react"
 
 export default function AboutUs() {
     return (
-        <main role="main" class="container">
-            <div class="starter-template">
+        <main role="main" className="container">
+            <div className="starter-template">
             <h1>
                 Sobre los creadores
             </h1>

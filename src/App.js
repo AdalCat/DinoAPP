@@ -3,7 +3,7 @@ import Main from './Main';
 import AboutUsApi from './AboutUsApi';
 import AboutApi from './AboutApi';
 import {
-  HashRouter as Router, 
+  BrowserRouter as Router, 
   Routes, 
   Route
 } from 'react-router-dom';
@@ -35,8 +35,8 @@ useEffect(() => {
     <Router>  
       <Routes>
         <Route exact path="/" element={<Main/>}/>
-        <Route exact path="https://adalcat.github.io/aboutapi" element={<AboutApi/>}/>
-        <Route exact path="https://adalcat.github.io/aboutus" element={<AboutUsApi/>}/>
+        <Route exact path="/aboutapi" element={<AboutApi/>}/>
+        <Route exact path="/aboutus" element={<AboutUsApi/>}/>
       </Routes>
     </Router>
   );
