@@ -10,58 +10,33 @@ export default function AboutUs() {
             <h2>
                 Alejandro Lopez
             </h2>
-            <ul>
-                <li>
-                    Hobbies: 
-                </li>
-                <li>
-                    Github: <a href="https://github.com/alopez-7">alopez-7</a>
-                </li>
-            </ul>
+            <p>
+                Hobbies:
+            </p>
             <h2>
-                Angel Alberto Díaz Cortés.
+                Angel Alberto
             </h2>
-            <ul>
-                <li>
-                    Hobbies: Correr, escuchar música, cocinar
-                </li>
-                <li>
-                    Github: <a href="https://github.com/AngelDiaz-21">AngelDiaz-21</a>
-                </li>
-            </ul>
+            <p>
+            Hobbies:
+            </p>
             <h2>
-                Edgar Adalid Cisneros Villa
+                Edgar Adalid Cisneros
             </h2>
-            <ul>
-                <li>
-                    Hobbies: Videojuegos.
-                </li>
-                <li>
-                    Github: <a href="https://github.com/AdalCat">AdalCat</a>
-                </li>
-            </ul>
+            <p>
+            Hobbies:
+            </p>
             <h2>
                 Gonzalo Ramos
             </h2>
-            <ul>
-                <li>
-                    Hobbies: Viajar, leer, escribir y ver series.
-                </li>
-                <li>
-                    Github: <a href="https://github.com/gnzrmsrtg">gnzrmsrtg</a>
-                </li>
-            </ul>
+            <p>
+            Hobbies:
+            </p>
             <h2>
                 Manuel Menodoza
             </h2>
-            <ul>
-                <li>
-                    Hobbies: Escuchar música, leer, caminar, nadar.
-                </li>
-                <li>
-                    Github: <a href="https://github.com/mmnam">mmnam</a>
-                </li>
-            </ul>
+            <p>
+            Hobbies: leer, caminar, nadar, escuchar música. 
+            </p>
             </div>
         </main>
     )
