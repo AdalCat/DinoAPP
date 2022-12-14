@@ -12,15 +12,12 @@ export default function AboutUs() {
             </h2>
             <ul>
                 <li>
-                    Hobbies: 
+                    Hobbies: Fotografia analoga, Plantas y patinar.
                 </li>
                 <li>
                     Github: <a href="https://github.com/alopez-7">alopez-7</a>
                 </li>
             </ul>
-            <p>
-                Hobbies: Fotografia analoga, Plantas y patinar.
-            </p>
             <h2>
                 Angel Alberto Díaz Cortés.
             </h2>
