@@ -11,6 +11,7 @@ export const fetchDinos = async (url) => {
         habitatSubregion: dinosaur.habitat.subregion,
         historicalperiodName: dinosaur.historicalperiod.name,
         historicalperiodYear: dinosaur.historicalperiod.years,
+        diet: dinosaur.diet,
     }));
 
     return dino;

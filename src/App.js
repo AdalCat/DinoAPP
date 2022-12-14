@@ -3,7 +3,7 @@ import Main from './Main';
 import AboutUsApi from './AboutUsApi';
 import AboutApi from './AboutApi';
 import {
-  BrowserRouter as Router, 
+  HashRouter as Router, 
   Routes, 
   Route
 } from 'react-router-dom';
@@ -35,8 +35,8 @@ useEffect(() => {
     <Router>  
       <Routes>
         <Route exact path="DinoAPP" element={<Main/>}/>
-        <Route exact path="/aboutapi" element={<AboutApi/>}/>
-        <Route exact path="/aboutus" element={<AboutUsApi/>}/>
+        <Route exact path="aboutapi" element={<AboutApi/>}/>
+        <Route exact path="aboutus" element={<AboutUsApi/>}/>
       </Routes>
     </Router>
   );
