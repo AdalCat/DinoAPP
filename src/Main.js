@@ -7,6 +7,7 @@ const maxDinosPerPage = 5
 export default function Main() {
 
   const [dinos, setdinos] = useState([])
+  const [allDinos, setAllDinos] = useState([])
   //current Dino to check how many to load
   const [dinoIndex,setDinoIndex] =useState(0)
   //current lenght of dinosaurs in the API
@@ -16,8 +17,8 @@ export default function Main() {
 
  // call function to load next Dinos (maxDinosPerPage indicates the number of dinos per screen) 
  const onNext = async () => {
-  const baseURL = 'https://dinoapi.onrender.com/dinos';
-  const dinosaur = await fetchDinos(baseURL);
+  
+  const dinosaur = allDinos
   const lastdino = dinos[dinos.length-1]
   const index = dinosaur.findIndex(element =>{
     return element.id === lastdino.id
@@ -32,8 +33,8 @@ export default function Main() {
 
  // call function to load previous Dinos (maxDinosPerPage indicates the number of dinos per screen) 
 const onPrevious = async () => {
-  const baseURL = 'https://dinoapi.onrender.com/dinos';
-  const dinosaur = await fetchDinos(baseURL);
+  
+  const dinosaur = allDinos
   const lastdino = dinos[0]
   const index = dinosaur.findIndex(element =>{
     return element.id === lastdino.id
@@ -50,6 +51,7 @@ const getDinos = async () => {
    
   const baseURL = 'https://dinoapi.onrender.com/dinos';
   const dinosaur = await fetchDinos(baseURL);
+  setAllDinos(dinosaur)
   setdinos(dinosaur.slice(0,maxDinosPerPage));
   setDinosaurElementIndex(dinosaur.length)
   

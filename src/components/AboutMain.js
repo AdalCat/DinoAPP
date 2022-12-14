@@ -17,8 +17,7 @@ export default function AboutMain() {
                 Como se obtuvo la información
             </h2>
             <p>
-                La información encontrada en esta API fue obtenida de INGRESAR.
-            </p>
+                La información encontrada en esta API fue obtenida de<a href="https://www.thoughtco.com/dinosaurs-a-to-z-1093748"> Thoughtco</a> </p>
             </div>
         </main>
     )

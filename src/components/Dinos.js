@@ -7,7 +7,7 @@ const Dinos = ({ dinos = []}) => {
       {dinos.map((item) => (
         <div key={item.id} className='col mb-5'>
           <div className='card' style={{minWidth: '200px'}}>
-            <img src={item.img} alt={item.name} className="card-img"/>
+            <img src={item.img} alt={item.name} className="card-img-top"/>
             <div className="card-body">
               <h4 className='card-title'>{item.name}</h4>
               <hr/>

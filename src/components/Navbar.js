@@ -5,8 +5,8 @@ const Navbar = ({ brand }) => {
     <nav className="navbar navbar-dark bg-dark ">
     <div className="container justify-content-center">
       <a className="navbar-brand" href="/"><img style={{width: "30px"}} alt="dino" src="favicon.png"/>{brand}</a>
-      <a href="/aboutapi" class="btn btn-info">Sobre la API</a>
-      <a href="/aboutus" class="btn btn-info">Los creadores</a>
+      <a href="/aboutapi" className="btn btn-info">Sobre la API</a>
+      <a href="/aboutus" className="btn btn-info">Los creadores</a>
     </div>
   </nav>
   )
