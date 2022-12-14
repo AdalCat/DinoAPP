@@ -35,8 +35,8 @@ useEffect(() => {
     <Router>  
       <Routes>
         <Route exact path="DinoAPP" element={<Main/>}/>
-        <Route exact path="aboutapi" element={<AboutApi/>}/>
-        <Route exact path="aboutus" element={<AboutUsApi/>}/>
+        <Route exact path="/aboutapi" element={<AboutApi/>}/>
+        <Route exact path="/aboutus" element={<AboutUsApi/>}/>
       </Routes>
     </Router>
   );
