@@ -54,9 +54,6 @@ export default function AboutUs() {
                     Github: <a href="https://github.com/gnzrmsrtg">gnzrmsrtg</a>
                 </li>
             </ul>
-            <p>
-            Hobbies: Viajar, leer, escribir y ver series
-            </p>
             <h2>
                 Manuel Menodoza
             </h2>
