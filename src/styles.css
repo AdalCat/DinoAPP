@@ -11,3 +11,35 @@
     height: 180px;
     max-width: 200px;
 }
+
+.starter-template{
+    padding: 3rem 1.5rem;
+}
+
+.btn{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+.col{
+    flex: 0.2 0 0%;
+}
+
+.card{
+    height: 450px;
+}
+
+.card-img-top{
+    height: 180px;
+}
+
+@media (max-width: 445px){
+    .col{
+        flex: none;
+    }
+}
+
+@media (max-width: 765px){
+    .row{
+        justify-content: center;
+    }
+}
