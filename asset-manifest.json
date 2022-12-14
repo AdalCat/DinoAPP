@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DinoAPP/static/css/main.cd2c69aa.css",
-    "main.js": "/DinoAPP/static/js/main.f752dcfb.js",
+    "main.js": "/DinoAPP/static/js/main.adee98b7.js",
     "index.html": "/DinoAPP/index.html",
     "main.cd2c69aa.css.map": "/DinoAPP/static/css/main.cd2c69aa.css.map",
-    "main.f752dcfb.js.map": "/DinoAPP/static/js/main.f752dcfb.js.map"
+    "main.adee98b7.js.map": "/DinoAPP/static/js/main.adee98b7.js.map"
   },
   "entrypoints": [
     "static/css/main.cd2c69aa.css",
-    "static/js/main.f752dcfb.js"
+    "static/js/main.adee98b7.js"
   ]
 }
