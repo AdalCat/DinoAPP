@@ -53,10 +53,15 @@ li{
 }
 
 /* Estilos para AboutUs */
-.container-nosotros img{
+.img-perfil{
     border-radius: 50%;
-    width: 80%;
     height: 200px;
+}
+
+.icon {
+    width: 30px;
+    border-radius: 50%;
+    
 }
 
 @media (max-width: 445px){
