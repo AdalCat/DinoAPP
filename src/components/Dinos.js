@@ -13,7 +13,7 @@ const Dinos = ({ dinos = []}) => {
               <hr/>
               <p className='card-text'>Habitat: {item.habitatPlace}-{item.habitatSubregion}</p>
               <p className='card-text'>Periodo: {item.historicalperiodName}-{item.historicalperiodYear}</p>
-              <p className='card-text'>Dieta: {item.diet}-{item.diet}</p>
+              <p className='card-text'>Dieta: {item.diet}</p>
             </div>
           </div>
         </div>

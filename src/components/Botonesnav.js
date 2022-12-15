@@ -23,7 +23,7 @@ const Botonesnav = ({prev, next, onPrevious, onNext}) => {
             {
                 next ?
             <li className='page-item'>
-                <button className='page-link' onClick={handleNext}>Posterior</button>
+                <button className='page-link' onClick={handleNext}>Siguiente</button>
             </li>
             :
             null

@@ -15,7 +15,7 @@ export default function AboutUs() {
                     Hobbies: Fotografia analoga, Plantas y patinar.
                 </li>
                 <li>
-                    Github: <a href="https://github.com/alopez-7">alopez-7</a>
+                    Github: <a href="https://github.com/alopez-7" target="_blank" rel="noreferrer">alopez-7</a>
                 </li>
             </ul>
             <h2>
@@ -26,7 +26,7 @@ export default function AboutUs() {
                     Hobbies: Correr, escuchar música, cocinar
                 </li>
                 <li>
-                    Github: <a href="https://github.com/AngelDiaz-21">AngelDiaz-21</a>
+                    Github: <a href="https://github.com/AngelDiaz-21" target="_blank" rel="noreferrer">AngelDiaz-21</a>
                 </li>
             </ul>
             <h2>
@@ -37,7 +37,7 @@ export default function AboutUs() {
                     Hobbies: Videojuegos.
                 </li>
                 <li>
-                    Github: <a href="https://github.com/AdalCat">AdalCat</a>
+                    Github: <a href="https://github.com/AdalCat" target="_blank" rel="noreferrer">AdalCat</a>
                 </li>
             </ul>
             <h2>
@@ -48,18 +48,18 @@ export default function AboutUs() {
                     Hobbies: Viajar, leer, escribir y ver series.
                 </li>
                 <li>
-                    Github: <a href="https://github.com/gnzrmsrtg">gnzrmsrtg</a>
+                    Github: <a href="https://github.com/gnzrmsrtg" target="_blank" rel="noreferrer">gnzrmsrtg</a>
                 </li>
             </ul>
             <h2>
-                Manuel Menodoza
+                Manuel Mendoza
             </h2>
             <ul>
                 <li>
                     Hobbies: Escuchar música, leer, caminar, nadar.
                 </li>
                 <li>
-                    Github: <a href="https://github.com/mmnam">mmnam</a>
+                    Github: <a href="https://github.com/mmnam" target="_blank" rel="noreferrer">mmnam</a>
                 </li>
             </ul>
             </div>
