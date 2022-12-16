@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar"
 export default function AboutApi() {
     return (
         <div>
-            <Navbar />
+            <Navbar brand="DinoAPP"/>
             <AboutMain />
         </div>
     )

@@ -6,7 +6,7 @@ import AboutUs from "./components/AboutUs"
 export default function AboutUsApi() {
     return (
         <div>
-            <Navbar />
+            <Navbar brand="DinoAPP"/>
             <AboutUs />
         </div>
     )
