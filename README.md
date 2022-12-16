@@ -1,3 +1,8 @@
-# Getting Started with Create React App
+# WELCOME TO DINO APP
 
-DinoAPP
+               __
+              / _)
+     _.----._/ /
+    /         /
+ __/ (  | (  |
+/__.-'|_|--|_|
