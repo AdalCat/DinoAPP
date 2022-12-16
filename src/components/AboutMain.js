@@ -5,7 +5,7 @@ export default function AboutMain() {
         <main role="main" class="container">
             <div class="starter-template">
                 <h1 className="text-center">
-                    App Dino
+                    DinoAPP
                 </h1><br />
                 <h2 className="mb-3">
                     Estructura general de la aplicación
